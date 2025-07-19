@@ -162,3 +162,32 @@ body {
   color: var(--light-gray);
   font-size: 0.8rem;
 }
+/* collection section end */
+/* feature section start here */
+.feature-container {
+  margin: 100px 165px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.feature-title h1 {
+  font-weight: 800;
+  font-size: 2rem;
+  margin-bottom: 16px;
+  color: var(--dark-color);
+  text-wrap: wrap;
+}
+.feature-description p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--light-gray);
+  margin-bottom: 16px;
+}
+.feature-button button {
+  padding: 10px 24px;
+  border: 1px solid transparent;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-weight: 700;
+}
