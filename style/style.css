@@ -169,6 +169,17 @@ body {
   color: var(--light-gray);
   font-size: 0.8rem;
 }
+.button-link {
+  margin: 30px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.button-link a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: 700;
+}
 /* collection section end */
 /* feature section start here */
 .feature-container {
@@ -233,3 +244,4 @@ body {
 .footer-icon a i:hover {
   color: var(--primary-color);
 }
+/* footer section style end here */
