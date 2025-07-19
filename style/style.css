@@ -47,3 +47,41 @@ body {
   font-weight: 700;
   color: var(--dark-color);
 }
+/* header style end */
+/* banner style start here */
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 80px 120px;
+}
+.banner-title h1 {
+  font-size: 3.25rem;
+  font-weight: 800;
+  color: var(--dark-color);
+  margin-bottom: 16px;
+}
+.banner-description p {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--light-gray);
+  margin-bottom: 16px;
+}
+.banner-button button {
+  border: 1px solid transparent;
+  border-radius: 41px;
+  padding: 10px 24px;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  font-weight: 800;
+}
+.banner-image img {
+  background: url(../images/Circle\ design.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-image {
+  width: 440px;
+  height: 414px;
+}
